@@ -13,7 +13,7 @@ public class Finance {
             Double num = sc.nextDouble();
             Double n = sc.nextDouble();
             double root = gm.NthRoot(num, n);
-            System.out.println("Square root of " + num + " is "+ root);
+            System.out.println(n +"th root of " + num + " is "+ root);
 
         } else if (x == 2){
             System.out.println("Enter a,b,c:");

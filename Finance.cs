@@ -21,7 +21,7 @@ namespace Finance
                 double num = double.Parse(value);
                 double n = double.Parse(data);
                 double root = gm.NthRoot(num, n);
-                Console.WriteLine("Square root of {0} is {1}", num, root);
+                Console.WriteLine("{0}th root of {1} is {2}",n, num, root);
 
             } else if (x == 2){
                 Console.WriteLine("Enter a,b,c:");
